@@ -1,0 +1,3473 @@
+### Template of input files for Monte Carlo simuation (mcml).
+# Anything in a line after # is ignored as comments.
+# Space lines are also ignored.
+# Lengths are in mm, mua and mus are in 1/mm.
+
+1.0        # file version
+231     # number of runs
+
+### SPECIFY DATA FOR RUN1
+data1.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN2
+data2.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN3
+data3.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN4
+data4.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN5
+data5.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN6
+data6.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN7
+data7.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN8
+data8.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN9
+data9.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN10
+data10.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN11
+data11.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN12
+data12.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN13
+data13.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN14
+data14.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN15
+data15.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN16
+data16.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN17
+data17.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN18
+data18.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN19
+data19.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN20
+data20.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN21
+data21.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.02000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN22
+data22.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN23
+data23.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN24
+data24.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN25
+data25.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN26
+data26.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN27
+data27.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN28
+data28.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN29
+data29.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN30
+data30.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN31
+data31.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN32
+data32.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN33
+data33.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN34
+data34.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN35
+data35.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN36
+data36.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN37
+data37.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN38
+data38.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN39
+data39.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN40
+data40.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN41
+data41.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN42
+data42.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  0.52000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN43
+data43.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN44
+data44.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN45
+data45.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN46
+data46.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN47
+data47.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN48
+data48.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN49
+data49.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN50
+data50.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN51
+data51.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN52
+data52.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN53
+data53.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN54
+data54.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN55
+data55.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN56
+data56.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN57
+data57.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN58
+data58.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN59
+data59.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN60
+data60.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN61
+data61.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN62
+data62.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN63
+data63.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.02000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN64
+data64.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN65
+data65.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN66
+data66.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN67
+data67.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN68
+data68.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN69
+data69.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN70
+data70.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN71
+data71.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN72
+data72.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN73
+data73.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN74
+data74.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN75
+data75.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN76
+data76.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN77
+data77.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN78
+data78.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN79
+data79.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN80
+data80.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN81
+data81.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN82
+data82.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN83
+data83.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN84
+data84.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  1.52000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN85
+data85.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN86
+data86.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN87
+data87.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN88
+data88.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN89
+data89.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN90
+data90.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN91
+data91.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN92
+data92.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN93
+data93.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN94
+data94.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN95
+data95.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN96
+data96.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN97
+data97.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN98
+data98.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN99
+data99.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN100
+data100.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN101
+data101.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN102
+data102.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN103
+data103.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN104
+data104.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN105
+data105.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.02000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN106
+data106.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN107
+data107.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN108
+data108.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN109
+data109.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN110
+data110.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN111
+data111.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN112
+data112.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN113
+data113.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN114
+data114.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN115
+data115.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN116
+data116.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN117
+data117.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN118
+data118.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN119
+data119.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN120
+data120.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN121
+data121.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN122
+data122.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN123
+data123.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN124
+data124.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN125
+data125.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN126
+data126.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  2.52000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN127
+data127.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN128
+data128.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN129
+data129.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN130
+data130.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN131
+data131.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN132
+data132.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN133
+data133.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN134
+data134.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN135
+data135.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN136
+data136.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN137
+data137.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN138
+data138.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN139
+data139.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN140
+data140.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN141
+data141.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN142
+data142.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN143
+data143.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN144
+data144.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN145
+data145.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN146
+data146.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN147
+data147.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.02000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN148
+data148.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN149
+data149.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN150
+data150.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN151
+data151.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN152
+data152.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN153
+data153.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN154
+data154.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN155
+data155.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN156
+data156.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN157
+data157.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN158
+data158.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN159
+data159.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN160
+data160.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN161
+data161.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN162
+data162.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN163
+data163.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN164
+data164.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN165
+data165.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN166
+data166.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN167
+data167.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN168
+data168.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  3.52000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN169
+data169.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN170
+data170.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN171
+data171.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN172
+data172.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN173
+data173.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN174
+data174.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN175
+data175.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN176
+data176.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN177
+data177.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN178
+data178.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN179
+data179.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN180
+data180.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN181
+data181.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN182
+data182.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN183
+data183.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN184
+data184.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN185
+data185.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN186
+data186.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN187
+data187.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN188
+data188.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN189
+data189.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.02000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN190
+data190.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN191
+data191.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN192
+data192.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN193
+data193.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN194
+data194.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN195
+data195.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN196
+data196.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN197
+data197.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN198
+data198.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN199
+data199.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN200
+data200.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN201
+data201.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN202
+data202.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN203
+data203.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN204
+data204.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN205
+data205.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN206
+data206.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN207
+data207.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN208
+data208.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN209
+data209.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN210
+data210.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  4.52000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN211
+data211.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  0.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN212
+data212.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  5.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN213
+data213.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  10.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN214
+data214.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  15.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN215
+data215.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  20.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN216
+data216.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  25.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN217
+data217.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  30.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN218
+data218.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  35.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN219
+data219.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  40.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN220
+data220.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  45.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN221
+data221.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  50.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN222
+data222.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  55.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN223
+data223.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  60.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN224
+data224.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  65.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN225
+data225.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  70.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN226
+data226.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  75.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN227
+data227.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  80.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN228
+data228.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  85.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN229
+data229.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  90.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN230
+data230.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  95.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
+### SPECIFY DATA FOR RUN231
+data231.mco                      # output file name, ASCII.
+1000000                        # No. of photons
+0.01  0.01                     # dz, dr [mm]
+250  1500  10                  # No. of dz, dr, da.
+
+3                              # Number of layers
+#n mua mus g d                 # One line for each layer
+1.0                            # n for medium above
+1.524  0.0  0.0  1.0  1.1      # layer 1
+1.4  5.02000  100.00000  0.97  1.2   # layer 2
+1.524  0.0  0.0  1.0  1.1      # layer 3
+1.0                            # n for medium below
+
+
